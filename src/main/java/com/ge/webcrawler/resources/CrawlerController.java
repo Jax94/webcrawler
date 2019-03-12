@@ -32,7 +32,7 @@ public class CrawlerController implements CrawlerApi{
 
 	
 	/* Finds the succesfully visited, skipped and 
-	 * error pages when crawling the internet
+	 * error pages when crawling the internet from the first page
 	 */
 	@CrossOrigin
 	@PostMapping(value="/crawler")
